@@ -1,0 +1,34 @@
+# Activation Function in Neural Networks
+
+![Thumbnail](https://ibb.co/HKrn2m7)
+
+## What is an activation function
+
+An activation function is what makes a nerual network, neural network. Without an activatoin function it is just a normal ML model.
+If your neural network model is forward propagation, an activation function is very important.
+
+## Most commonly used activation functions
+
+### 1. Binary Step Function
+
+This is the simplest activation function, it's basic working it that if the input function is greater than the threshold, then the neuron gets activated. This is also be visualised by a simple if-else statement.
+
+![Binary Step](https://ibb.co/cx0QFzP)
+
+### 2. ReLU
+
+ReLU stands for Rectified Linear Unit. Unline Binary it doesn't activate all the neurons at once. Mathematically, if the output is less than zero, the neurons will not activate.
+
+![ReLu](https://ibb.co/gzrn3Lt)
+
+### 3. Sigmoid
+
+It is very popular, it's value ranges between 0 and 1. Is adds non-linearity to the model. Since the value ranges between 0 and 1 it is genrally used in models where probability is predicted.
+
+![Sigmoid](https://ibb.co/wJbpnbW)
+
+### 4. Softmax
+
+This activation function is particularily used in the output layer of the neural network. in Convolutional Neural Network(CNN) it assigns decimal probabilities to each class and while classifying an image the class with highest probability is the result. The values assigned to classes all add upto 1.
+
+![Softmax](https://ibb.co/RQfFHh0)
